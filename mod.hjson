@@ -1,0 +1,5 @@
+name: "ccms"
+displayName: "CCMS"
+description: "CCMS (or campaign changed mod stuf) aims to as stated change campaign a bit. \n Changes will also apply to maps so watch out."
+version: "1337"
+minGameVersion: "112"
