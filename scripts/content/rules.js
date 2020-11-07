@@ -12,6 +12,10 @@ Events.on(WorldLoadEvent, b => {
         "Yes",
         ()=>{
             print("[accent]Campaign mode not enabled[]"
+            Vars.state.rules.buildCostMultiplier = 1;
+            Vars.state.rules.deconstructRefundMultiplier = 0.5;
+            Vars.state.rules.enemyLights = true;
+            Vars.state.rules.unitAmmo = false;
         )},
         ()=>{  
             Vars.state.rules.buildCostMultiplier = 0.8;
