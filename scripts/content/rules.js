@@ -4,7 +4,7 @@ Vars.state.rules.deconstructRefundMultiplier = 1;
 Vars.state.rules.enemyLights = false;
 Vars.state.rules.unitAmmo = true;
 });*/
-            print("Asking player for enabling"
+            print("Asking player for enabling)"
             Vars.state.rules.buildCostMultiplier = 1;
             Vars.state.rules.deconstructRefundMultiplier = 0.5;
             Vars.state.rules.enemyLights = true;
