@@ -4,7 +4,7 @@ Vars.state.rules.deconstructRefundMultiplier = 1;
 Vars.state.rules.enemyLights = false;
 Vars.state.rules.unitAmmo = true;
 });*/
-            print("Asking player for enabling)"
+            print("Asking player for enabling")
 Events.on(ClientLoadEvent, b => {
     Vars.ui.showCustomConfirm(
         "[]Switch on [#8f00ff][] Campaign mode?[]","[#8f00ff]Campaign mode[] will enable certain reatrues and lock some stats in place. It decreases build costs and changes lighting rules a bit.\n[accent]Do you want to Campaign mode?[]",
