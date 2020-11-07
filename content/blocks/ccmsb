@@ -1,0 +1,19 @@
+size: 2
+update: true
+solid: true
+hasItems: true
+configurable: true
+localizedName: "CCMSB"
+description: "Changes the rules of the world."
+category: effect
+requirements: [
+  copper/50
+  lead/65
+]
+consumes: {
+  items: {
+    items: [
+      copper/10
+    ]
+  }
+}
