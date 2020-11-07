@@ -1,2 +1,2 @@
-Blocks.resuplyPoint.buildVisibility = BuildVisibility.shown;
-Blocks.resuplyPoint.research = parent.dagger;
+Blocks.resupplyPoint.buildVisibility = BuildVisibility.shown;
+Blocks.resupplyPoint.research = parent.dagger;
