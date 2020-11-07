@@ -26,4 +26,4 @@ Events.on(WorldLoadEvent, e => {
             Vars.state.rules.enemyLights = false;
             Vars.state.rules.unitAmmo = true;
         };
-)};
+)});
