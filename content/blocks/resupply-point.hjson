@@ -1,2 +1,14 @@
 BuildVisibility: shown
 research: air-factory
+size: 2
+update: true
+solid: false
+hasItems: true
+configurable: true
+consumes: {
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+}
