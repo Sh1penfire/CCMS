@@ -6,8 +6,8 @@ Vars.state.rules.enemyLights = false;
 Vars.state.rules.unitAmmo = true;
 });
 */
-print("Asking player for enabling")
-Events.on(WorldLoadEvent, e => {;
+print("Asking player for enabling");
+Events.on(WorldLoadEvent, e => {
     Vars.ui.showCustomConfirm(
         "Switch on[#86BAF9] Campaign mode?[]",
         "[#86BAF9]Campaign mode[] will enable certain reatrues and lock some stats in place. It decreases build costs and changes lighting rules a bit.\n[accent]Do you want to Campaign mode?[]",
@@ -26,5 +26,4 @@ Events.on(WorldLoadEvent, e => {;
             Vars.state.rules.enemyLights = false;
             Vars.state.rules.unitAmmo = true;
         };
-});
-
+)};
