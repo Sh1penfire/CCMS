@@ -1,1 +1,1 @@
-require("content/rules"")
+require("content/rules");
