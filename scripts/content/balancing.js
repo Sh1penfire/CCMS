@@ -1,2 +1,2 @@
-Blocks.blockForge.buildVisibility = BuildVisibility.shown;
-Blocks.blockForge.research = commandCenter.shown;
+Blocks.resuplyPoint.buildVisibility = BuildVisibility.shown;
+Blocks.resuplyPoint.research = parent.dagger;
