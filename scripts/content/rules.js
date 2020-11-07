@@ -3,7 +3,7 @@
 //Vars.state.rules.deconstructRefundMultiplier = 1;
 //Vars.state.rules.enemyLights = false;
 //Vars.state.rules.unitAmmo = true;
-#});
+//#});
 const CCMSBrulechange = newEffect(20, e => {
     Draw.color(Color.yellow, Color.orange, e.fin()); //color goes from yellow to orange
     Lines.stroke(e.fout() * 2); //line thickness goes from 2 to 0
