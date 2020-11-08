@@ -24,7 +24,7 @@ const waveeffect1 = new Effect(20, e => {
 const waveeffect2 = new Effect(20, e => {
 
     Draw.color( Color.white, Color.black, e.fout());
-    Lines.stroke(e.fin() * Math. random()*2+1); 
+    Lines.stroke(e.fin() * Mathf.random()*2+1); 
     Lines.circle(e.x, e.y, e.fout() * 25); 
 });
 
