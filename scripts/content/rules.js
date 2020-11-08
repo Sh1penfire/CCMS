@@ -86,4 +86,5 @@ let x = Vars.player.x;
 let y = Vars.player.y;
 
 waveeffect1.at(x, y);
+waveeffect2.at(x, y);
 });
