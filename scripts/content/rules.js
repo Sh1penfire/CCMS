@@ -87,4 +87,10 @@ let y = Vars.player.y;
 
 waveeffect1.at(x, y);
 waveeffect2.at(x, y);
+while (timer < 10) {
+print(Bullet)
+//bullet.create(Bullets.healBulletBig, team, x, y, Mathf.random(360), Mathf.random(0.5, 1.0), Mathf.random(0.2, 1.0))
+timer++;
+}
+//Call.createBullet(this, team, x, y, angle, damage, velocityScl, lifetimeScl);
 });
