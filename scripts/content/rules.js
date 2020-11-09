@@ -84,6 +84,7 @@ Events.on(WaveEvent, e => {
 
 let x = Vars.player.x;
 let y = Vars.player.y;
+let timer = 0;
 
 waveeffect1.at(x, y);
 waveeffect2.at(x, y);
