@@ -12,3 +12,5 @@ Even if it isn't forever, maybe in a different context we will meet again
 
 
 Goodbye.
+
+(It's been a year since that was written and I coudn't be bothered to change it lmao)
